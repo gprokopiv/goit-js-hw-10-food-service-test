@@ -4,22 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --env.mode development --config ./webpack/config.js",
+    "start": "webpack-dev-server --env.mode development --config ./webpack/config.js --public-url /goit-js-hw-10-food-service/",
     "build": "webpack --env.mode production --config ./webpack/config.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gprokopiv/webpack-starter-kit.git"
+    "url": "git+https://github.com/luxplanjay/webpack-starter-kit.git"
   },
   "keywords": [],
-  "author": "Prokopiv Halyna <halyna.kotlyar@gmail.com>",
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gprokopiv/webpack-starter-kit/issues"
+    "url": "https://github.com/luxplanjay/webpack-starter-kit/issues"
   },
-  "homepage": "https://github.com/gprokopiv/webpack-starter-kit#readme",
+  "homepage": "https://github.com/gprokopiv/goit-js-hw-10-food-service",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
