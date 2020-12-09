@@ -55,11 +55,10 @@ function populateTextarea() {
 
 const formData = {};
 
-// refs.form.addEventListener('input', e => {
-//   // console.log(e.target.name);
-//   // console.log(e.target.value);
+refs.form.addEventListener('input', e => {
+  console.log(e.target.name);
+  console.log(e.target.value);
 
-//   formData[e.target.name] = e.target.value;
   formData[e.target.name] = e.target.value;
 
   console.log(formData);
