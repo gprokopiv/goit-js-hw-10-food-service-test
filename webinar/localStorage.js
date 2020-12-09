@@ -1,4 +1,4 @@
-import throttle from 'lodash.throttle';
+// import throttle from 'lodash.throttle';
 // import '../css/common.css';
 // import '../css/feedback-form.css';
 
@@ -53,13 +53,14 @@ function populateTextarea() {
 // Домой
 // сделать так чтобы сохраняло не только сообщение но и имя, и все в одном обьекте
 
-// const formData = {};
+const formData = {};
 
 // refs.form.addEventListener('input', e => {
 //   // console.log(e.target.name);
 //   // console.log(e.target.value);
 
 //   formData[e.target.name] = e.target.value;
+  formData[e.target.name] = e.target.value;
 
-//   console.log(formData);
-// });
+  console.log(formData);
+});
