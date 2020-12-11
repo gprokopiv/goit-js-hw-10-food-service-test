@@ -1,4 +1,4 @@
-// import './styles.css';
+import './styles.css';
 import cardsEl from './menu.json';
-import foodMenu from './template.hbs';
-import Theme from './switch-toggle';
+import foodMenuTml from './template.hbs';
+import themeSwitcher from './switch-toggle';
